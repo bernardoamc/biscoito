@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{A simple framework on top of Rack}
   spec.description   = %q{Description of a simple framework on top of Rack}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/bernardoamc/biscoito"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
