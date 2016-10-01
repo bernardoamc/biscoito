@@ -1,5 +1,7 @@
 require "biscoito/version"
 require "biscoito/controller"
+require "biscoito/extensions"
+require "biscoito/autoloading"
 
 module Biscoito
   class Application
