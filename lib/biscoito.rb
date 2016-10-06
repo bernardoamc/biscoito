@@ -8,8 +8,7 @@ module Biscoito
   class Application
     def call(env)
       controller, action = get_route(env)
-      text = Object.const_get(controller).new(env).public_send(action)
-      [200, {"Content-Type" => "text/html"}, [text]]
+      Object.const_get(controller).new(env).public_send(action)
     end
 
     def routes(&block)
